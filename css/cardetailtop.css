@@ -1,0 +1,89 @@
+.TopContainer {
+	position: relative;
+	width: calc(100% - 240px);
+	left: 120px;
+	height: 44px;
+}
+
+.TopBackground {
+	position: absolute;
+	left: -120px;
+	right: -120px;
+	top: 0;
+	bottom: 0;
+	background-color: #165089;
+}
+
+.TopLogo {
+	position: relative;
+	margin-top: 9px;
+	height: 27px;
+	width: auto;
+	/*left: 10px;*/
+}
+
+.TopRightContainer {
+	float: right;
+	/*margin-right: 10px;*/
+	height: 44px;
+	line-height: 44px;
+}
+
+.TopRightSelectersContainer {
+	position: absolute;
+	right: 150px;
+}
+
+.TopRightSelector {
+	font-size: 14px;
+	color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.TopRightSelector:hover {
+	color: #00B7FF;
+}
+
+.TopRightAccountContainer {
+	position: relative;
+}
+
+.TopRightAccountContainer img {
+	position: relative;
+	top: 7px;
+	width: 30px;
+}
+
+.TopRightAccount {
+	position: relative;
+	color: white;
+	bottom: 2px;
+	font-size: 14px;
+	margin-right: 5px;
+}
+
+.Logout {
+	position: fixed;
+	background-color: white;
+	z-index: 999;
+	top: 44px;
+	z-index: 1000;
+	right: 80px;
+	z-index: 1000;
+	width: 150px;
+	line-height: 40px;
+	color: #333;
+	cursor: pointer;
+	border-radius: 4px;
+	box-shadow: 0 0 8px rgba(0, 199, 255, 0.4);
+}
+
+.Logout img {
+	position: relative;
+	width: 20px;
+	height: auto;
+	top: 5px;
+	margin-left: 10px;
+}

@@ -1,0 +1,358 @@
+.MiddleContainer {
+	position: relative;
+	width: calc(100% - 240px);
+}
+
+.MiddleBoxContainer {
+	position: relative;
+	width: 100%;
+	left: 120px;
+	height: 0;
+	padding-bottom: calc(70% + 84px);
+}
+
+/*Middle标题与路径部分*/
+.MiddleTitleContainer {
+	position: relative;
+	height: 44px;
+	background-color: white;
+	line-height: 44px;
+}
+
+.MiddleTitleBackground {
+	position: absolute;
+	left: -120px;
+	right: -120px;
+	top: 0;
+	height: 44px;
+	background-color: white;
+}
+
+.MiddleTitleContainer span span {
+	color: #333;
+	font-size: 14px;
+	margin-left: 10px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.MiddleTitleContainer span img {
+	position: relative;
+	margin-left: 5px;
+	top: 5px;
+}
+
+.MiddlePath {
+	position: relative;
+	width: 32%;
+}
+
+.MiddleHighLight {
+	padding: 12px 0;
+	border-bottom: #00C7FF solid 3px;
+}
+
+.MiddleTitle {
+	position: absolute;
+	width: calc(68% - 5px);
+	height: 100%;
+	right: 0;
+	top: 0;
+}
+
+.MiddleTitle .MiddleTitleImgContainer {
+	position: absolute;
+	left: auto;
+	top: 0;
+	right: 0;
+}
+
+.CarBubble {
+	background: url(/ppy/img/icon_chongzhikuang.png) no-repeat;
+	background-size: 100% 100%;
+	width: 80px;
+	height: 40px;
+	padding-right: 6px;
+	position: absolute;
+	line-height: 30px;
+	top: 10px;
+	right: 50px;
+	border-radius: 4px;
+	display: none;
+	text-align: center;
+}
+
+.CarBubble>p {
+	width: 100%;
+	height: 26px;
+	line-height: 10px;
+	font-family: PingFangSC-Regular;
+	font-size: 10px;
+	color: #333333;
+}
+
+.MiddleTitle .CarBubble img {
+	position: absolute;
+	right: 0;
+}
+
+.MiddleTitle .CarBubble {
+	top: 5px;
+}
+
+.MiddleTitle span {
+	cursor: pointer;
+	font-size: 12px;
+	color: #666;
+}
+
+.MiddleTitle img {
+	position: relative;
+	float: right;
+}
+
+/*Middle中间部分*/
+/*Middle中间左侧部分*/
+.MiddleLeftContainer {
+	position: absolute;
+	width: calc(50% - 5px);
+	top: 54px;
+	height: 0;
+	padding-bottom: 35%;
+	text-align: center;
+	background-color: white;
+}
+
+.MiddleLeftTopContainer {
+	position: relative;
+	height: 0;
+	padding-bottom: 10%;
+}
+
+.MiddleLeftTopTitleContainer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.MiddleLeftTopTitle {
+	position: relative;
+	font-size: 14px;
+	color: #333;
+	padding: calc(5% - 7px);
+}
+
+.MiddleLeftMiddleContainer {
+	position: relative;
+	height: 0;
+	padding-bottom: 50%;
+}
+
+.MiddleLeftMiddleRemind {
+	position: absolute;
+	display: none;
+	top: -25px;
+	width: 150px;
+	height: 32px;
+	left: calc(50% - 75px);
+	line-height: 27px;
+	text-align: center;
+	font-size: 12px;
+	color: black;
+	background-image: url(/ppy/img/icon_tishikuang.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.MiddleLeftMiddleWaitingContainer {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.MiddleLeftMiddleWaitingContainer img {
+	margin-top: calc(25% - 40px);
+}
+
+.MiddleLeftMiddleImgContainer img {
+	cursor: pointer;
+	max-width: 320px;
+	max-height: 193px;
+}
+
+.MiddleLeftBottomContainer {
+	position: relative;
+	font-size: 14px;
+	color: #666;
+	padding: calc(5% - 7px);
+}
+
+/*Middle中间右侧部分*/
+.MiddleRightContainer {
+	position: absolute;
+	width: calc(50% - 5px);
+	top: 54px;
+	right: 0px;
+	height: 0;
+	padding-bottom: 35%;
+	background-color: white;
+}
+
+/*中右上*/
+.MiddleRightTopContainer {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 10%;
+}
+
+.MiddleRightSelectorContainer {
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+
+.MiddleRightSelectorItem {
+	position: relative;
+	display: inline-block;
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+	width: 20%;
+	margin-left: 6.6%;
+	margin-right: 6.6%;
+	padding: calc(5% - 9px) 0;
+	cursor: pointer;
+}
+
+.MiddleRightSelectorItemSelected {
+	border-bottom: #0D6FB8 4px solid;
+	color: #0D6FB8;
+}
+
+/*中右下*/
+.MiddleRightBottomContainer {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 60%;
+}
+
+.MiddleRightInfoFormContainer {
+	position: absolute;
+	top: 0;
+	left: 10px;
+	right: 10px;
+	bottom: 10px;
+	padding-top: 20px;
+	padding-left: 40px;
+	overflow-y: scroll;
+	border: #D8D8D8 1px solid;
+}
+
+.MiddleRightInfoFormWaitingContainer {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 0;
+	padding-bottom: 30%;
+	text-align: center;
+}
+
+.MiddleRightInfoFormWaitingContainer img {
+	position: relative;
+	margin-top: calc(30% - 40px);
+	left: -40px;
+}
+
+.MiddleRightInfoFormItem {
+	position: relative;
+	font-size: 14px;
+	color: #333;
+	line-height: 20px;
+	padding: 1px 0;
+}
+
+/*Middle中间下方部分*/
+.MiddleBottomContainer {
+	position: absolute;
+	width: 100%;
+	height: 0;
+	padding-bottom: calc(35% + 20px);
+	bottom: 0;
+	background-color: white;
+}
+
+.MiddleBottomTopContainer {
+	position: relative;
+	height: 0;
+	padding-bottom: 5%;
+	text-align: center;
+}
+
+.MiddleBottomTopContainer .MiddleLeftTopTitle {
+	padding: calc(2.5% - 7px);
+}
+
+.MiddleBottomBottomContainer {
+	position: relative;
+	height: 0;
+	padding-bottom: calc(30% + 20px);
+}
+
+.MiddleBottomListContainer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+}
+
+.MiddleBottomListItemContainer {
+	position: relative;
+	display: inline-block;
+	width: 11%;
+	margin-left: 1.2%;
+	height: 0;
+	padding-bottom: 15%;
+}
+
+.MiddleBottomListItemImgContainer {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	text-align: center;
+}
+
+.MiddleBottomListItemImg {
+	position: relative;
+	width: 100%;
+	cursor: pointer;
+}
+
+.MiddleBottomListItemImg:hover {
+	border: 1px #00C7FF solid;
+}
+
+.MiddleBottomListItemTitle {
+	position: relative;
+	font-size: 12px;
+	padding: 10%;
+	color: #333;
+}
+
+.MiddleBottomListWaitingContainer {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.MiddleBottomListWaitingContainer img {
+	margin-top: calc(15% - 40px);
+}
